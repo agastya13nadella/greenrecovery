@@ -15,11 +15,19 @@ html, body {
   .header-for-home-page {
     font-size: 48px;
   }
+
+  .big-header-for-home-page {
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 780px) {
   .header-for-home-page {
     font-size: 44px;
+  }
+
+  .big-header-for-home-page {
+    font-size: 47px;
   }
 }
 
@@ -27,11 +35,19 @@ html, body {
   .header-for-home-page {
     font-size: 40px;
   }
+
+  .big-header-for-home-page {
+    font-size: 43px;
+  }
 }
 
 @media (min-width: 624px) {
   .header-for-home-page {
     font-size: 36px;
+  }
+
+  .big-header-for-home-page {
+    font-size: 38px;
   }
 }
 
@@ -39,17 +55,29 @@ html, body {
   .header-for-home-page {
     font-size: 16px;
   }
+
+  .big-header-for-home-page {
+    font-size: 18px;
+  }
 }
 
 @media (min-height: 360px) {
   .header-for-home-page {
     font-size: 30px;
   }
+
+  .big-header-for-home-page {
+    font-size: 32px;
+  }
 }
 
 @media (min-height: 768px) {
   .header-for-home-page {
     font-size: 50px;
+  }
+
+  .big-header-for-home-page {
+    font-size: 52px;
   }
 }
 
@@ -58,33 +86,66 @@ html, body {
     font-size: 22px;
   }
 
-  .custom-mobile-change1 {
-    position: relative;
-    bottom: 40px;
-  }
-  .font-change-for-smol{
-    font-size: 15px;
-  }
-}
-@media (min-width: 200px) {
-  .header-for-home-page {
-    font-size: 22px;
+  .big-header-for-home-page {
+    font-size: 24px;
   }
 
   .custom-mobile-change1 {
     position: relative;
     bottom: 40px;
   }
-  .font-change-for-smol{
+
+  .font-change-for-smol {
     font-size: 15px;
   }
 }
+
+@media (min-width: 200px) {
+  .header-for-home-page {
+    font-size: 22px;
+  }
+
+  .big-header-for-home-page {
+    font-size: 24px;
+  }
+
+  .custom-mobile-change1 {
+    position: relative;
+    bottom: 40px;
+  }
+
+  .font-change-for-smol {
+    font-size: 15px;
+  }
+}
+
 @media (min-width: 780px) {
   .header-for-home-page {
     font-size: 2.5vw;
   }
-  .font-change-for-smol{
+
+  .big-header-for-home-page {
+    font-size: 2.8vw;
+  }
+
+  .font-change-for-smol {
     font-size: 22px;
+  }
+
+  .custom-pc-change1 {
+    position: relative;
+    right: 5px;
+    bottom: 20px;
+  }
+
+  .custom-pc-change2 {
+    position: relative;
+    left: 100px;
+  }
+
+  .custom-pc-change3 {
+    position: relative;
+    bottom: 200px;
   }
 }
 
@@ -103,9 +164,10 @@ html, body {
   float: right;
   text-align: left;
 }
+
 .line {
-    padding-bottom: 15px;
-    border-bottom-style: solid;
-    border-bottom-width: 3.1px;
-    width: fit-content;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: fit-content;
 }
