@@ -1,0 +1,111 @@
+a, a:hover, a:focus, a:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+html, body {
+  height: 100vh;
+}
+
+.hover-green:hover {
+  color: green;
+}
+
+@media (min-width: 858px) {
+  .header-for-home-page {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 780px) {
+  .header-for-home-page {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 702px) {
+  .header-for-home-page {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 624px) {
+  .header-for-home-page {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 623px) {
+  .header-for-home-page {
+    font-size: 16px;
+  }
+}
+
+@media (min-height: 360px) {
+  .header-for-home-page {
+    font-size: 30px;
+  }
+}
+
+@media (min-height: 768px) {
+  .header-for-home-page {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 280px) {
+  .header-for-home-page {
+    font-size: 22px;
+  }
+
+  .custom-mobile-change1 {
+    position: relative;
+    bottom: 40px;
+  }
+  .font-change-for-smol{
+    font-size: 15px;
+  }
+}
+@media (min-width: 200px) {
+  .header-for-home-page {
+    font-size: 22px;
+  }
+
+  .custom-mobile-change1 {
+    position: relative;
+    bottom: 40px;
+  }
+  .font-change-for-smol{
+    font-size: 15px;
+  }
+}
+@media (min-width: 780px) {
+  .header-for-home-page {
+    font-size: 2.5vw;
+  }
+  .font-change-for-smol{
+    font-size: 22px;
+  }
+}
+
+#blocker {
+  float: left;
+  width: 30%;
+  height: 100px;
+}
+
+#wrapper {
+  text-align: left;
+}
+
+#inner {
+  display: inline-block;
+  float: right;
+  text-align: left;
+}
+.line {
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
